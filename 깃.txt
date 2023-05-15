@@ -1,0 +1,6 @@
+git config --global user.name yeongeun1223
+git config --global user.email yeongzzzzi@gmail.com
+git init
+git remote add origin https://github.com/yeongeun1223/ye1223.git
+git remote -v
+
