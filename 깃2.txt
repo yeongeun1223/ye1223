@@ -1,0 +1,4 @@
+마스터에 +
+
+readme 파일이 없는 상태에서 
+git push -u origin +master

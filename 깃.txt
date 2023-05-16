@@ -2,5 +2,46 @@ git config --global user.name yeongeun1223
 git config --global user.email yeongzzzzi@gmail.com
 git init
 git remote add origin https://github.com/yeongeun1223/ye1223.git
+git remote add origin https://github.com/yeongeun1223/ye1223.git
 git remote -v
+git add . 
+git status
+git commit –m 프로젝트명
+git push origin master
 
+
+
+
+기존 리모트 작업 삭제
+git remote remove origin http:
+다시 추가 
+git remote add origin http:~
+//////
+git add . 
+git status
+git commit –m '수정내용'
+git push origin master
+
+
+
+
+https://coding-factory.tistory.com/619
+
+
+cd..
+md test1
+dir
+cd test1
+git clone https://github.com/yeongeun1223/ye1223.git
+
+
+
+
+$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/lcl3392/test1.git'
+EZENIC-107@DESKTOP-S60P2LV MINGW64 /d/이초롱/프로젝트/이초롱 (master)
+$ git commit -v "ddd"
+error: pathspec 'ddd' did not match any file(s) known to git
+EZENIC-107@DESKTOP-S60P2LV MINGW64 /d/이초롱/프로젝트/이초롱 (master)
+$ git commit -m "dieks"
